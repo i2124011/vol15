@@ -1,0 +1,250 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Shippori Mincho", serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a {
+    transition: 0.3s;
+}
+a:hover {
+    opacity: 0.2;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.page-header,
+.page-hero,
+.page-content,
+.page-footer {
+    min-width: 1280px;
+    width: 100%;
+}
+.page-header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 16px 0 24px;
+    background-color: #fff;
+    border-top: solid 4px #7f9916;
+}
+.page-header__inner,
+.page-content__inner {
+    box-sizing: content-box;
+}
+.page-header__inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.page-header .logo,
+.page-footer .logo {
+    width: 256px;
+}
+.page-header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.global-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.global-nav > .sns-list {
+    margin-left: 64px;
+}
+.global-nav > .link-button {
+    margin-left: 64px;
+}
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-list__item:not(:first-child) {
+    margin-left: 24px;
+}
+.menu-list__item a {
+    color: #000;
+    font-weight: 700;
+}
+.sns-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sns-list__item {
+    width: 24px;
+}
+.sns-list__item:not(:first-child) {
+    margin-left: 16px;
+}
+.link-button {
+    display: table;
+    width: 140px;
+}
+.page-block {
+    text-align: center;
+}
+.page-heading {
+    display: inline-block;
+    width: 290px;
+    font-size: 32px;
+    padding-top: 48px ;
+    padding-bottom:  8px ;
+    border-bottom: solid 4px #7f9916;
+}
+.feature-list {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 960px;
+    height: 520px;
+}
+.feature-list__item {
+    margin-top: 24px;
+    margin-bottom: 80px;
+    width: 288px;
+    height: 432px;
+}
+.feature-list__item img {
+    padding: 16px;
+    width: 288px;
+    height: 288px;
+}
+.feature-list__item h3 {
+    font-size: 24px;
+    margin: 16px;
+}
+.works-list {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 1120px;
+    height: 970px;
+}
+.works-list__item {
+    margin: 32px 16px 24px 24px;
+    width: 520px;
+    height: 424px;
+}
+.works-list__item img {
+    width: 520px;
+    height: 296px;
+}
+.works-list__item h3 {
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    position: relative;
+    display: inline-block;
+    border-bottom: solid 2px #D8D8D8;
+}
+.works-list__item h3:before {
+    bottom: -2px;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background: #7f9916;
+}
+.cost-list {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 1120px;
+    height: 350px;
+}
+.cost-list__item {
+    width: 350px;
+    height: 282px;
+    margin: 24px 16px 10px 10px;
+}
+.cost-list__item img{
+    width: 344px;
+    height: 184px;
+}
+.cost-list__item h3 {
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.voice-list__item {
+    margin: auto;
+    width: 680px;
+    height: 200px;
+    margin-top: 16px;
+    border: 2px solid #526600;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.voice-list__item p {
+    padding: 48px 48px 32px 0;
+}
+.voice-list__item img {
+    margin: 48px 24px;
+    width: 96px;
+    height: 96px;
+}
+.banner {
+    display: inline-block;
+}
+.banner img{
+    justify-content: center;
+}
+.banner1 {
+    margin-top: 128px;
+    width: 1080px;
+    height: 224px;
+}
+.banner2 {
+    margin-top: 48px;
+    margin-bottom: 128px;
+    width: 1080px;
+    height: 176px;
+}
+.company-column {
+    width: 1080px;
+    height: 520px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.company-data dt {
+    float: left;
+    clear: left;
+    margin-right: 5px;
+}
+dt::after{
+    content: "："
+}
+.company-map {
+    width: 544px;
+    height: 440px;
+}
+.footer-inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.footer-data {
+    margin-right: 180px;
+}
